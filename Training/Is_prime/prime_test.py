@@ -3,6 +3,7 @@
 import unittest
 from prime import *
 
+
 class isPrimeTest(unittest.TestCase):
 
     def testOne(self):
@@ -14,13 +15,13 @@ class isPrimeTest(unittest.TestCase):
     def testThree(self):
         self.assertEquals(is_prime(2), True,"2 is a prime")
 
-    def testThree(self):
+    def testFour(self):
         self.assertEquals(is_prime(-1), False,"-1 is not a prime")
 
-    def testThree(self):
+    def testFive(self):
         self.assertEquals(is_prime(73), True,"73 is  a prime")
 
-    def testThree(self):
+    def testSix(self):
         self.assertEquals(is_prime(9), False ,"9 is  not a prime")
 
 
