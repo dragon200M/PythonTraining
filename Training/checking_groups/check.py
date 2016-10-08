@@ -3,7 +3,7 @@
 def group_check(s):
 
     if len(s) % 2 == 0:
-        lista=list(s)
+
         stack = []
         for i in range(len(s)):
             c=s[i]
@@ -11,7 +11,7 @@ def group_check(s):
 
             if c == "(" or c == "{" or c == "[":
                 stack.append(c)
-                
+
             elif c == ")":
 
                 if isEmpty(stack):return False
