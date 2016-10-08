@@ -11,7 +11,7 @@ def group_check(s):
 
             if c == "(" or c == "{" or c == "[":
                 stack.append(c)
-                print(stack)
+                
             elif c == ")":
 
                 if isEmpty(stack):return False
